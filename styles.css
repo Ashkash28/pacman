@@ -1,0 +1,98 @@
+	 #container{
+	 	width: 420px;
+	 	height: 420px;
+		background-color: black;
+		position: relative;
+	 }
+	 /*// 0 ///*/
+	 .brick{
+	 	width: 32px;
+	 	height: 32px;
+	 	background-color: blue;
+	 	position: absolute;
+	 }
+	 /*// 3// */
+	 .blank{
+	 	width: 32px;
+	 	height: 32px;
+	 	position: absolute;
+	 }
+	 /*// 1 //*/
+	 .coin{
+	 	width: 32px;
+	 	height: 32px;
+	 	background-image: url('./images/coin.png');
+	 	background-size: cover;
+	 	position: absolute;
+
+	 }
+	 /*// 2 //*/
+	 .cherry{
+	 	width: 32px;
+	 	height: 32px;
+	 	background-image: url('./images/cherry.png');
+	 	background-size: cover;
+	 	position: absolute;
+
+	 }
+	 /*// 4 //*/
+	 .ghost{
+	 	width: 32px;
+	 	height: 32px;
+	 	background-image: url('./images/blinky.gif');
+	 	background-size: cover;
+	 	position: absolute;
+	 }
+	 .pacman{
+	 	width: 32px;
+	 	height: 32px;
+	 	background-image: url('./images/pacman.gif');
+	 	background-size: cover;
+	 	position: absolute;
+
+	 }
+	 .right{
+	 	width: 32px;
+	 	height: 32px;
+	 	background-image: url('./images/pacman.gif');
+	 	background-size: cover;
+	 	position: absolute;
+
+	 }
+	  .up{
+	  	width: 32px;
+	  	height: 32px;
+	  	background-image: url('./images/pacman.gif');
+	  	background-size: cover;
+	  	position: absolute;
+	 	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	  }
+	 .down{
+	 	width: 32px;
+	 	height: 32px;
+	 	background-image: url('./images/pacman.gif');
+	 	background-size: cover;
+	 	position: absolute;
+		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	 }
+	  .left{
+	  	width: 32px;
+	  	height: 32px;
+	  	background-image: url('./images/pacman.gif');
+	  	background-size: cover;
+	  	position: absolute;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      
+	  }	
+	 #score{
+	 	width: 200px;
+	 	height: 200px;
+	 	background-color: red;
+	 }
+	  #life_board{
+	 	width: 200px;
+	 	height: 200px;
+	 	background-color: green;
+	 	display: inline-block;
+	 }
